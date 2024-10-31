@@ -232,7 +232,14 @@ p {
   padding: 3px;
   padding-left: 20px;
 }
-
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  .container {
+      padding: 10px;
+  }
+}
 
 
 
